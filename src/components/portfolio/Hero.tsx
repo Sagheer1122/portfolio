@@ -9,7 +9,7 @@ const word = {
   }),
 };
 
-const lines = [["Full", "stack"], ["developer", "&"], ["problem", "solver."]];
+const lines = [["Full", "stack"], ["developer", "&"], ["problem"], ["solver"]];
 
 export const Hero = () => (
   <section id="top" className="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
@@ -25,11 +25,11 @@ export const Hero = () => (
           Available · Lahore, PK
         </motion.div>
 
-        <h1 className="font-display font-black leading-[0.85] tracking-tight text-[14vw] md:text-[10vw] lg:text-[8.5vw]">
+        <h1 className="font-display font-black leading-[0.85] tracking-tight text-[9vw] sm:text-[12vw] md:text-[10vw] lg:text-[8.5vw]">
           {lines.map((ln, li) => (
-            <span key={li} className="block overflow-hidden">
+            <span key={li} className="block overflow-hidden py-1">
               <motion.span
-                className="inline-flex gap-[0.25em]"
+                className="flex flex-wrap gap-x-[0.25em] gap-y-[0.1em]"
                 initial="hidden"
                 animate="show"
               >

@@ -115,7 +115,7 @@ export const Contact = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="font-display font-black leading-[0.85] tracking-tight text-[16vw] md:text-[12vw]"
+        className="font-display font-black leading-[0.85] tracking-tight text-[12vw] md:text-[12vw]"
       >
         Let's <span className="italic text-primary">talk</span>.
       </motion.h2>
