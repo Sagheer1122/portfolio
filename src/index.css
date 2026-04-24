@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800;9..144,900&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Editorial dark — ink + bone + electric lime */
+    --background: 40 10% 6%;
+    --foreground: 40 25% 94%;
+
+    --card: 40 8% 9%;
+    --card-foreground: 40 25% 94%;
+
+    --popover: 40 10% 6%;
+    --popover-foreground: 40 25% 94%;
+
+    --primary: 72 95% 58%;
+    --primary-foreground: 40 10% 6%;
+
+    --secondary: 40 8% 14%;
+    --secondary-foreground: 40 25% 94%;
+
+    --muted: 40 6% 16%;
+    --muted-foreground: 40 10% 62%;
+
+    --accent: 18 95% 58%;
+    --accent-foreground: 40 10% 6%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 40 25% 94%;
+
+    --border: 40 8% 18%;
+    --input: 40 8% 18%;
+    --ring: 72 95% 58%;
+
+    --bone: 40 30% 92%;
+    --ink: 40 10% 6%;
+
+    --gradient-lime: linear-gradient(135deg, hsl(72 95% 58%), hsl(90 80% 50%));
+    --gradient-fade: linear-gradient(180deg, hsl(40 10% 6% / 0), hsl(40 10% 6%));
+    --shadow-glow: 0 30px 80px -20px hsl(72 95% 58% / 0.35);
+    --shadow-card: 0 20px 60px -20px hsl(0 0% 0% / 0.6);
+
+    --radius: 1rem;
+    --sidebar-background: 40 10% 6%;
+    --sidebar-foreground: 40 25% 94%;
+    --sidebar-primary: 72 95% 58%;
+    --sidebar-primary-foreground: 40 10% 6%;
+    --sidebar-accent: 40 8% 14%;
+    --sidebar-accent-foreground: 40 25% 94%;
+    --sidebar-border: 40 8% 18%;
+    --sidebar-ring: 72 95% 58%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+    background-image:
+      radial-gradient(1200px 600px at 80% -10%, hsl(72 95% 58% / 0.08), transparent 60%),
+      radial-gradient(800px 500px at -10% 30%, hsl(18 95% 58% / 0.06), transparent 60%);
+  }
+  ::selection { background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); }
+}
+
+@layer utilities {
+  .font-display { font-family: 'Fraunces', serif; font-optical-sizing: auto; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+  .text-balance { text-wrap: balance; }
+
+  .grain::before {
+    content: "";
+    position: fixed; inset: 0; pointer-events: none; z-index: 100;
+    opacity: 0.06; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
+  .marquee-track {
+    display: inline-flex; gap: 4rem;
+    animation: marquee 40s linear infinite;
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  .ticker-shadow {
+    background: linear-gradient(90deg, hsl(var(--background)), transparent 10%, transparent 90%, hsl(var(--background)));
+  }
+}
