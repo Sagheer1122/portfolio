@@ -122,13 +122,13 @@ export const Contact = () => (
 
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <a
-          href="mailto:sagheerahmad5767@gmail.com"
+          href="mailto:sagheernoor007@gmail.com"
           className="group rounded-2xl bg-card border border-border p-8 hover:border-primary transition-all hover:-translate-y-1"
         >
           <Mail className="w-6 h-6 text-primary mb-6" />
           <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Email</p>
           <p className="font-display text-lg font-bold mt-2 break-all group-hover:text-primary transition-colors">
-            sagheerahmad5767@gmail.com
+            sagheernoor007@gmail.com
           </p>
         </a>
         <a
