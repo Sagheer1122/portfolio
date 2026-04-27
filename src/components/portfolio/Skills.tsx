@@ -38,7 +38,7 @@ export const Skills = () => (
           transition={{ duration: 0.6, delay: gi * 0.1 }}
           className="rounded-2xl bg-card border border-border p-6 hover:border-primary/50 transition-colors group"
         >
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center justify-start gap-3 mb-6">
             <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
               0{gi + 1}
             </span>
