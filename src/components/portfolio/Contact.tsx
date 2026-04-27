@@ -89,7 +89,7 @@ const ContactForm = () => {
       />
       <textarea
         required value={message} onChange={(e) => setMessage(e.target.value)}
-        placeholder="Tell me about your project…" rows={5}
+        placeholder="Your message…" rows={5}
         className="md:col-span-2 bg-card border border-border rounded-xl px-5 py-4 focus:outline-none focus:border-primary transition-colors resize-none"
       />
       <button
@@ -105,7 +105,7 @@ const ContactForm = () => {
 };
 
 export const Contact = () => (
-  <section id="contact" className="relative py-24 md:py-36 overflow-hidden">
+  <section id="contact" className="relative py-16 md:py-24 overflow-hidden">
     <div className="container">
       <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">
         (05) — Contact
@@ -115,9 +115,9 @@ export const Contact = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="font-display font-black leading-[0.85] tracking-tight text-[12vw] md:text-[12vw]"
+        className="font-display font-black leading-[0.85] tracking-tight text-5xl sm:text-7xl md:text-8xl"
       >
-        Let's <span className="italic text-primary">talk</span>.
+        Contact <span className="italic text-primary">Me</span>.
       </motion.h2>
 
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

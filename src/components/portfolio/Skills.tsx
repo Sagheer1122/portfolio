@@ -20,12 +20,12 @@ const groups = [
 ];
 
 export const Skills = () => (
-  <section id="skills" className="container py-24 md:py-36">
+  <section id="skills" className="container py-16 md:py-24">
     <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">
       (03) — Skills
     </p>
-    <h2 className="font-display text-5xl md:text-7xl font-black leading-[0.95] mb-16 max-w-3xl">
-      My <span className="italic text-primary">toolbox</span>.
+    <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] mb-16 max-w-3xl">
+      My <span className="italic text-primary">Skills</span>.
     </h2>
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

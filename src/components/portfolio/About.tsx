@@ -8,7 +8,7 @@ const stats = [
 ];
 
 export const About = () => (
-  <section id="about" className="container py-24 md:py-36">
+  <section id="about" className="container py-16 md:py-24">
     <div className="grid grid-cols-12 gap-8">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -21,7 +21,7 @@ export const About = () => (
           (01) — About
         </p>
         <h2 className="font-display text-4xl md:text-5xl font-black leading-[0.95]">
-          Building a foundation in <span className="text-primary italic">web</span>.
+          <span className="text-primary italic">About</span> me.
         </h2>
 
       </motion.div>
@@ -31,7 +31,7 @@ export const About = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.7, delay: 0.15 }}
-        className="col-span-12 md:col-span-8 md:col-start-5 space-y-6 text-lg text-muted-foreground leading-relaxed"
+        className="col-span-12 md:col-span-8 md:col-start-5 space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed"
       >
         <p>
           I'm a final-year Computer Science student at <span className="text-foreground">Minhaj University Lahore</span> and
@@ -40,9 +40,7 @@ export const About = () => (
         </p>
         <p>
           My work spans designing scalable database schemas, developing well-structured APIs, and building clean,
-          user-focused interfaces using React. I prioritize depth over trends, with a strong focus on writing
-          maintainable <span className="text-foreground">Ruby on Rails</span> backends, modeling data effectively in
-          PostgreSQL, and delivering intuitive, thoughtfully crafted user experiences.
+          user-focused interfaces using React. I prioritize writing maintainable <span className="text-foreground">Ruby on Rails</span> backends and delivering intuitive user experiences.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-8">

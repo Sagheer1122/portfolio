@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Download, FileText } from "lucide-react";
 
 export const CVCallout = () => (
-  <section className="container py-20">
+  <section className="container py-16 md:py-24">
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -14,11 +14,11 @@ export const CVCallout = () => (
       <div className="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
         <div className="max-w-xl">
           <FileText className="w-8 h-8 text-primary mb-4" />
-          <h3 className="font-display text-3xl md:text-5xl font-black leading-tight">
-            Want the full <span className="italic text-primary">story</span>?
+          <h3 className="font-display text-3xl sm:text-4xl md:text-5xl font-black leading-tight">
+            Download my <span className="italic text-primary">Resume</span>.
           </h3>
-          <p className="mt-3 text-muted-foreground">
-            Grab the PDF résumé — experience, education, skills, contact, all in one page.
+          <p className="mt-3 text-sm md:text-base text-muted-foreground">
+            Get all the details about my experience, education, and skills in one document.
           </p>
         </div>
         <a

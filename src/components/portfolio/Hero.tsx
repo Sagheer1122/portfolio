@@ -9,10 +9,10 @@ const word = {
   }),
 };
 
-const lines = [["Full", "stack"], ["developer", "&"], ["problem"], ["solver"]];
+const lines = [["Full-Stack"], ["Web"], ["Developer"]];
 
 export const Hero = () => (
-  <section id="top" className="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
+  <section id="top" className="relative py-16 md:py-24 overflow-hidden">
     <div className="container grid grid-cols-12 gap-6 items-end">
       <div className="col-span-12 lg:col-span-8">
         <motion.div
@@ -25,7 +25,7 @@ export const Hero = () => (
           Available · Lahore, PK
         </motion.div>
 
-        <h1 className="font-display font-black leading-[0.85] tracking-tight text-[9vw] sm:text-[12vw] md:text-[10vw] lg:text-[8.5vw]">
+        <h1 className="font-display font-black leading-[1.1] tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
           {lines.map((ln, li) => (
             <span key={li} className="block overflow-hidden py-1">
               <motion.span
@@ -54,8 +54,8 @@ export const Hero = () => (
           transition={{ delay: 0.9, duration: 0.7 }}
           className="mt-8 max-w-xl text-lg md:text-xl text-muted-foreground text-balance"
         >
-          I'm <span className="text-foreground font-medium">Sagheer Ahmad</span> — building
-          fast, reliable web products with <em className="text-primary not-italic">React</em>,
+          I'm <span className="text-foreground font-medium">Sagheer Ahmad</span> — I build
+          modern web applications using <em className="text-primary not-italic">React</em>,
           <em className="text-primary not-italic"> Ruby on Rails</em>, and PostgreSQL.
         </motion.p>
       </div>

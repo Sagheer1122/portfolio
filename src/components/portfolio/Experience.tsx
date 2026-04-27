@@ -25,11 +25,11 @@ const items = [
 ];
 
 export const Experience = () => (
-  <section className="container py-24 md:py-36">
+  <section className="container py-16 md:py-24">
     <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">
       (04) — Path
     </p>
-    <h2 className="font-display text-5xl md:text-7xl font-black leading-[0.95] mb-16">
+    <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] mb-16">
       Experience & <span className="italic text-primary">education</span>.
     </h2>
 

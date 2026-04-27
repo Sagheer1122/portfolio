@@ -37,14 +37,14 @@ const projects = [
 ];
 
 export const Work = () => (
-  <section id="work" className="container py-24 md:py-36">
+  <section id="work" className="container py-16 md:py-24">
     <div className="flex items-end justify-between mb-12 md:mb-20">
       <div>
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">
           (02) — Selected Work
         </p>
-        <h2 className="font-display text-5xl md:text-7xl font-black leading-[0.95]">
-          Things I've <span className="italic text-primary">shipped</span>.
+        <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95]">
+          Recent <span className="italic text-primary">Work</span>.
         </h2>
       </div>
     </div>
