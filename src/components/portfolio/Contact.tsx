@@ -105,7 +105,7 @@ const ContactForm = () => {
 };
 
 export const Contact = () => (
-  <section id="contact" className="relative py-16 md:py-24 overflow-hidden">
+  <section id="contact" className="relative py-10 md:py-16 overflow-hidden">
     <div className="container">
       <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">
         (05) — Contact

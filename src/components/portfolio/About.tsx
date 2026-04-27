@@ -8,7 +8,7 @@ const stats = [
 ];
 
 export const About = () => (
-  <section id="about" className="container py-16 md:py-24">
+  <section id="about" className="container py-10 md:py-16">
     <div className="grid grid-cols-12 gap-8">
       <motion.div
         initial={{ opacity: 0, y: 30 }}

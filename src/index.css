@@ -69,8 +69,8 @@
 }
 
 @layer utilities {
-  .font-display { font-family: 'Fraunces', serif; font-optical-sizing: auto; }
-  .font-mono { font-family: 'JetBrains Mono', monospace; }
+  .font-display { font-family: 'Inter', sans-serif; }
+  .font-mono { font-family: 'Inter', sans-serif; }
   .text-balance { text-wrap: balance; }
 
   .grain::before {

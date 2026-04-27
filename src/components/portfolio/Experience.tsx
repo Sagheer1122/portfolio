@@ -25,7 +25,7 @@ const items = [
 ];
 
 export const Experience = () => (
-  <section className="container py-16 md:py-24">
+  <section className="container py-10 md:py-16">
     <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">
       (04) — Path
     </p>

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Download, FileText } from "lucide-react";
 
 export const CVCallout = () => (
-  <section className="container py-16 md:py-24">
+  <section className="container py-10 md:py-16">
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
