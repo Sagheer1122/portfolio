@@ -12,7 +12,7 @@ const word = {
 const lines = [["Full-Stack"], ["Web"], ["Developer"]];
 
 export const Hero = () => (
-  <section id="top" className="relative py-10 md:py-16 overflow-hidden">
+  <section id="top" className="relative pt-24 pb-10 md:pt-32 md:pb-16 overflow-hidden">
     <div className="container grid grid-cols-12 gap-6 items-end">
       <div className="col-span-12 lg:col-span-8">
         <motion.div
