@@ -75,7 +75,7 @@ const ContactForm = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.7 }}
-      className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-4"
+      className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4"
     >
       <input
         required value={name} onChange={(e) => setName(e.target.value)}
@@ -120,7 +120,7 @@ export const Contact = () => (
         Contact <span className="italic text-primary">Me</span>.
       </motion.h2>
 
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <a
           href="mailto:sagheerahmad5767@gmail.com"
           className="group rounded-2xl bg-card border border-border p-8 hover:border-primary transition-all hover:-translate-y-1"

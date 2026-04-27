@@ -24,7 +24,7 @@ export const Skills = () => (
     <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">
       (03) — Skills
     </p>
-    <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] mb-16 max-w-3xl">
+    <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] mb-10 max-w-3xl">
       My <span className="italic text-primary">Skills</span>.
     </h2>
 

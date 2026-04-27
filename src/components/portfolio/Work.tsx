@@ -38,7 +38,7 @@ const projects = [
 
 export const Work = () => (
   <section id="work" className="container py-10 md:py-16">
-    <div className="flex items-end justify-between mb-12 md:mb-20">
+    <div className="flex items-end justify-between mb-8 md:mb-12">
       <div>
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">
           (02) — Selected Work

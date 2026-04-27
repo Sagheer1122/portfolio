@@ -29,7 +29,7 @@ export const Experience = () => (
     <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-4">
       (04) — Path
     </p>
-    <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] mb-16">
+    <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] mb-10">
       Experience & <span className="italic text-primary">education</span>.
     </h2>
 
