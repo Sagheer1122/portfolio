@@ -7,7 +7,7 @@ const projects = [
     title: "CampusConnect",
     tag: "MongoDB · Express · React · Node.js",
     desc: "A collaborative student networking platform built on the MERN stack. Currently in active development, featuring real-time group study rooms, academic forums, and student resource sharing.",
-    year: "2026",
+    year: "Active",
     href: "#",
   },
   {
@@ -30,8 +30,8 @@ const projects = [
     n: "04",
     title: "The TaxMan's Capital",
     tag: "HTML5 · CSS3 · JavaScript · Responsive",
-    desc: "A static web platform designed to help accounting and finance students in Pakistan find articleships, study resources, and expert career guidance.",
-    year: "2026",
+    desc: "A static web platform designed to help accounting and finance students in Pakistan find articleships, study resources, and expert career guidance. Currently in active development.",
+    year: "Active",
     href: "https://github.com/Sagheer1122/The-TexMan-s-Capital",
   },
   {
@@ -68,14 +68,6 @@ const projects = [
   },
   {
     n: "09",
-    title: "DeltaLabs — Enterprise Web Apps",
-    tag: "Rails · React · MVC",
-    desc: "Internship work on enterprise apps: CRUD features, validations, MVC best practices, performance & UI/UX optimization within an Agile workflow.",
-    year: "2025",
-    href: "#contact",
-  },
-  {
-    n: "10",
     title: "Sidcup Family Golf",
     tag: "HTML5 · CSS3 · JavaScript · GSAP",
     desc: "A high-performance, modern, and fully responsive landing page clone of the Sidcup Family Golf facility, optimized for visual excellence, smooth scroll animations, and fluid behaviors.",
@@ -83,7 +75,7 @@ const projects = [
     href: "https://sidcup-family-golf-silk.vercel.app/",
   },
   {
-    n: "11",
+    n: "10",
     title: "Password Generator",
     tag: "JavaScript · Bootstrap 5 · CSS3",
     desc: "Secure password generator with customizable length, uppercase, lowercase, numbers and symbols. Includes validation and copy-to-clipboard. Fully responsive UI.",
@@ -91,12 +83,20 @@ const projects = [
     href: "https://password-generator-73zf.vercel.app",
   },
   {
-    n: "12",
+    n: "11",
     title: "Hit The Number — Browser Game",
     tag: "JavaScript · HTML5 · CSS3",
     desc: "Interactive number-guessing game with random generation, score tracking, real-time feedback and a responsive UI for smooth gameplay across screen sizes.",
     year: "2024",
     href: "https://hit-the-number.vercel.app",
+  },
+  {
+    n: "12",
+    title: "DeltaLabs — Enterprise Web Apps",
+    tag: "Rails · React · MVC",
+    desc: "Internship work on enterprise apps: CRUD features, validations, MVC best practices, performance & UI/UX optimization within an Agile workflow.",
+    year: "2025",
+    href: "#contact",
   },
 ];
 
