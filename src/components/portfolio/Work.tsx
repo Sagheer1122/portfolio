@@ -12,6 +12,14 @@ const projects = [
   },
   {
     n: "02",
+    title: "Meeting to Action Notes",
+    tag: "React 19 · Vite · OpenAI · Netlify",
+    desc: "A premium web application that converts raw meeting transcripts into structured summaries, action items, key decisions, risks, and a polished follow-up email draft.",
+    year: "2026",
+    href: "https://meeting-notes-rosy.vercel.app/",
+  },
+  {
+    n: "03",
     title: "FlowState Pro",
     tag: "React · Tailwind · Gemini AI · Vite",
     desc: "A premium task manager and focus dashboard built with React (Vite), featuring relative due-dates tracking, custom Pomodoro focus timers, dynamic glassmorphism stats, responsive bottom navigation for mobile, and a real-world Google Gemini 1.5 Flash AI Copilot integration.",
@@ -19,7 +27,7 @@ const projects = [
     href: "https://flows-state-pro.vercel.app/",
   },
   {
-    n: "03",
+    n: "04",
     title: "The TaxMan's Capital",
     tag: "HTML5 · CSS3 · JavaScript · Responsive",
     desc: "A static web platform designed to help accounting and finance students in Pakistan find articleships, study resources, and expert career guidance.",
@@ -27,7 +35,7 @@ const projects = [
     href: "https://github.com/Sagheer1122/The-TexMan-s-Capital",
   },
   {
-    n: "04",
+    n: "05",
     title: "Gamico Hub",
     tag: "React · Tailwind · SEO · Dark Mode",
     desc: "A modern website for a game development studio dedicated to crafting immersive, high-quality mobile gaming experiences. Features smooth navigation, search engine optimization (SEO), and a premium dark mode layout.",
@@ -35,7 +43,7 @@ const projects = [
     href: "https://www.gamicohub.com/",
   },
   {
-    n: "05",
+    n: "06",
     title: "HavenHotels — Hotel Management System",
     tag: "React · Rails · PostgreSQL · Tailwind",
     desc: "Full-stack hotel management & room booking platform. React frontend for browsing/filtering, Rails REST APIs for rooms, bookings & auth, PostgreSQL with real-time availability tracking.",
@@ -43,7 +51,7 @@ const projects = [
     href: "https://hotel-management-webapp-lovat.vercel.app",
   },
   {
-    n: "06",
+    n: "07",
     title: "Alpha Blog",
     tag: "Ruby on Rails · Bootstrap · SCSS",
     desc: "A modern and dynamic blogging platform built with Ruby on Rails, Bootstrap, and SCSS, combining robust functionality and clean aesthetics to create a seamless writing and reading experience.",
@@ -51,7 +59,7 @@ const projects = [
     href: "https://github.com/Sagheer1122/Alpha-Blog-",
   },
   {
-    n: "07",
+    n: "08",
     title: "School Management System (SMS)",
     tag: "Ruby on Rails · Bootstrap · MVC",
     desc: "A full-stack school management application built with Ruby on Rails, featuring role-specific dashboards (Admin/Student) to efficiently manage student profiles and academic records.",
@@ -59,7 +67,7 @@ const projects = [
     href: "https://github.com/Sagheer1122/Student-Management-System",
   },
   {
-    n: "08",
+    n: "09",
     title: "DeltaLabs — Enterprise Web Apps",
     tag: "Rails · React · MVC",
     desc: "Internship work on enterprise apps: CRUD features, validations, MVC best practices, performance & UI/UX optimization within an Agile workflow.",
@@ -67,7 +75,7 @@ const projects = [
     href: "#contact",
   },
   {
-    n: "09",
+    n: "10",
     title: "Sidcup Family Golf",
     tag: "HTML5 · CSS3 · JavaScript · GSAP",
     desc: "A high-performance, modern, and fully responsive landing page clone of the Sidcup Family Golf facility, optimized for visual excellence, smooth scroll animations, and fluid behaviors.",
@@ -75,7 +83,7 @@ const projects = [
     href: "https://sidcup-family-golf-silk.vercel.app/",
   },
   {
-    n: "10",
+    n: "11",
     title: "Password Generator",
     tag: "JavaScript · Bootstrap 5 · CSS3",
     desc: "Secure password generator with customizable length, uppercase, lowercase, numbers and symbols. Includes validation and copy-to-clipboard. Fully responsive UI.",
@@ -83,7 +91,7 @@ const projects = [
     href: "https://password-generator-73zf.vercel.app",
   },
   {
-    n: "11",
+    n: "12",
     title: "Hit The Number — Browser Game",
     tag: "JavaScript · HTML5 · CSS3",
     desc: "Interactive number-guessing game with random generation, score tracking, real-time feedback and a responsive UI for smooth gameplay across screen sizes.",
