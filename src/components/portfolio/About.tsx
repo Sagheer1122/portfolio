@@ -34,13 +34,12 @@ export const About = () => (
         className="col-span-12 md:col-span-8 md:col-start-5 space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed"
       >
         <p>
-          I'm a final-year Computer Science student at <span className="text-foreground">Minhaj University Lahore</span> and
-          have recently completed my internship at <span className="text-foreground">DeltaLabs</span>, where I gained
-          hands-on experience working across the full stack.
+          I'm a final-year Computer Science student at{" "}
+          <span className="text-foreground">Minhaj University, Lahore</span>, and a full-stack developer who enjoys building things end-to-end — from the database up to the interface. During my internship at{" "}
+          <span className="text-foreground">DeltaLabs</span>, I worked across the stack: designing scalable schemas, building clean RESTful APIs, and crafting user-focused frontends in React.
         </p>
         <p>
-          My work spans designing scalable database schemas, developing well-structured APIs, and building clean,
-          user-focused interfaces using React. I prioritize writing maintainable <span className="text-foreground">Ruby on Rails</span> backends and delivering intuitive user experiences.
+          I care about writing <span className="text-foreground">Ruby on Rails</span> backends that are easy to maintain and interfaces that feel intuitive to use. I'm always looking for opportunities to keep learning and build software that people genuinely enjoy using.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-8">
