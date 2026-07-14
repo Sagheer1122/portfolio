@@ -12,7 +12,7 @@ const items = [
     role: "BS Computer Science",
     org: "Minhaj University Lahore",
     place: "Lahore",
-    range: "Jun 2022 — Dec 2026",
+    range: "Dec 2022 — Aug 2026",
     body: "Studying core CS with applied focus on web engineering — Rails, React, PostgreSQL.",
   },
   {
@@ -42,9 +42,8 @@ export const Experience = () => (
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6 }}
-          className={`relative pl-8 md:pl-0 md:grid md:grid-cols-2 md:gap-12 mb-12 ${
-            i % 2 === 0 ? "" : "md:[&>div:first-child]:order-2"
-          }`}
+          className={`relative pl-8 md:pl-0 md:grid md:grid-cols-2 md:gap-12 mb-12 ${i % 2 === 0 ? "" : "md:[&>div:first-child]:order-2"
+            }`}
         >
           <span className="absolute left-0 md:left-1/2 top-2 w-4 h-4 -translate-x-[7px] md:-translate-x-1/2 rounded-full bg-primary shadow-glow" />
           <div className={`${i % 2 === 0 ? "md:text-right md:pr-12" : "md:pl-12"}`}>
