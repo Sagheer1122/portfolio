@@ -15,7 +15,7 @@ const groups = [
   },
   {
     label: "Tooling",
-    items: ["Git / GitHub", "VS Code", "Vite"],
+    items: ["Git / GitHub", "VS Code", "Antigravity", "Vite"],
   },
 ];
 
