@@ -12,6 +12,14 @@ const projects = [
   },
   {
     n: "02",
+    title: "The TaxMan's Capital",
+    tag: "HTML5 · CSS3 · JavaScript · Responsive",
+    desc: "A static web platform designed to help accounting and finance students in Pakistan find articleships, study resources, and expert career guidance. Currently in active development.",
+    year: "Active",
+    href: "https://github.com/Sagheer1122/The-TexMan-s-Capital",
+  },
+  {
+    n: "03",
     title: "Meeting to Action Notes",
     tag: "React 19 · Vite · OpenAI · Netlify",
     desc: "A premium web application that converts raw meeting transcripts into structured summaries, action items, key decisions, risks, and a polished follow-up email draft.",
@@ -19,20 +27,12 @@ const projects = [
     href: "https://meeting-notes-rosy.vercel.app/",
   },
   {
-    n: "03",
+    n: "04",
     title: "FlowState Pro",
     tag: "React · Tailwind · Gemini AI · Vite",
     desc: "A premium task manager and focus dashboard built with React (Vite), featuring relative due-dates tracking, custom Pomodoro focus timers, dynamic glassmorphism stats, responsive bottom navigation for mobile, and a real-world Google Gemini 1.5 Flash AI Copilot integration.",
     year: "2026",
     href: "https://flows-state-pro.vercel.app/",
-  },
-  {
-    n: "04",
-    title: "The TaxMan's Capital",
-    tag: "HTML5 · CSS3 · JavaScript · Responsive",
-    desc: "A static web platform designed to help accounting and finance students in Pakistan find articleships, study resources, and expert career guidance. Currently in active development.",
-    year: "Active",
-    href: "https://github.com/Sagheer1122/The-TexMan-s-Capital",
   },
   {
     n: "05",
