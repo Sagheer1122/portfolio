@@ -6,7 +6,7 @@ const items = [
     org: "DeltaLabs",
     place: "Lahore",
     range: "Nov 2025 — Mar 2026 · Completed",
-    body: "Completed a 5-month internship building enterprise web apps with Ruby on Rails and React.js — CRUD features, validations, MVC best practices, and UI/UX optimization within an Agile workflow.",
+    body: "Over a 5-month internship, I helped build enterprise web applications using Ruby on Rails and React.js — from implementing CRUD features and solid validations to following MVC best practices and fine-tuning UI/UX. Working within an Agile workflow taught me how to balance clean code with fast-moving, real-world deadlines.",
   },
   {
     role: "BS Computer Science",
