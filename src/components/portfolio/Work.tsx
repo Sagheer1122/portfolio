@@ -117,7 +117,7 @@ export const Work = () => (
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6, delay: i * 0.05 }}
-          className="group block border-b border-border py-8 md:py-10 transition-colors hover:bg-secondary/40"
+          className="group block border-b border-border py-4 md:py-5 transition-colors hover:bg-secondary/40"
         >
           <div className="container-fluid grid grid-cols-12 gap-4 items-center">
             <div className="col-span-2 md:col-span-1 font-mono text-xs text-muted-foreground">{p.n}</div>
