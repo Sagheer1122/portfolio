@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { k: "3.5+", v: "Years studying CS" },
-  { k: "5 mo", v: "DeltaLabs internship" },
-  { k: "10+", v: "Tech in stack" },
-  { k: "∞", v: "Curiosity" },
+  { k: "1.5+", v: "Years Experience" },
+  { k: "5 mo", v: "DeltaLabs Internship" },
+  { k: "MERN & Rails", v: "Core Stacks" },
+  { k: "Final Year", v: "Computer Science" },
 ];
 
 export const About = () => (
@@ -23,7 +23,6 @@ export const About = () => (
         <h2 className="font-display text-4xl md:text-5xl font-black leading-[0.95]">
           <span className="text-primary italic">About</span> me.
         </h2>
-
       </motion.div>
 
       <motion.div
@@ -34,15 +33,25 @@ export const About = () => (
         className="col-span-12 md:col-span-8 md:col-start-5 space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed"
       >
         <p>
-          I'm a final-year Computer Science student at{" "}
-          <span className="text-foreground">Minhaj University, Lahore</span>, and a full-stack developer who enjoys building things end-to-end — from the database up to the interface. During my internship at{" "}
-          <span className="text-foreground">DeltaLabs</span>, I worked across the stack: designing scalable schemas, building clean RESTful APIs, and crafting user-focused frontends in React.
+          I'm <span className="text-foreground font-semibold">Sagheer Ahmad</span>, a full-stack developer specializing in the{" "}
+          <span className="text-foreground font-medium">MERN stack</span> (MongoDB, Express, React, Node.js) and{" "}
+          <span className="text-foreground font-medium">Ruby on Rails</span>, with{" "}
+          <span className="text-foreground font-medium">PostgreSQL</span> for database work. Currently finishing my final year in Computer Science, I've spent the past 1.5+ years building real-world web applications — from full backend systems with authentication and API integration to complete end-to-end products.
         </p>
         <p>
-          I care about writing <span className="text-foreground">Ruby on Rails</span> backends that are easy to maintain and interfaces that feel intuitive to use. I'm always looking for opportunities to keep learning and build software that people genuinely enjoy using.
+          I completed a <span className="text-foreground font-medium">5-month internship at Deltalabs</span>, where I worked with Ruby on Rails and React.js on real client-facing features — backend logic, database work, and frontend integration.
+        </p>
+        <p>
+          I've also worked on projects ranging from an automated accident detection and emergency response system, to a hotel management platform, to a campus connectivity application built as part of a team. Each project has pushed me to write cleaner code, design better systems, and think through real problems from the ground up.
+        </p>
+        <p>
+          I care about building software that actually works — reliable, well-structured, and delivered on time. Whether it's a simple website or a full-scale web application, I bring the same level of focus and attention to detail.
+        </p>
+        <p className="text-foreground font-medium pt-2">
+          Currently open to freelance and remote opportunities — let's build something great together.
         </p>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6">
           {stats.map((s, i) => (
             <motion.div
               key={s.v}
@@ -52,7 +61,7 @@ export const About = () => (
               transition={{ delay: i * 0.1 }}
               className="border-t border-border pt-4"
             >
-              <div className="font-display text-3xl md:text-4xl font-black text-foreground">{s.k}</div>
+              <div className="font-display text-2xl md:text-3xl font-black text-foreground">{s.k}</div>
               <div className="font-mono text-[10px] uppercase tracking-widest mt-1">{s.v}</div>
             </motion.div>
           ))}
@@ -61,3 +70,4 @@ export const About = () => (
     </div>
   </section>
 );
+

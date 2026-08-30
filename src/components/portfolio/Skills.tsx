@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 const groups = [
   {
     label: "Frontend",
-    items: ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "Bootstrap 5", "HTML / CSS"],
+    items: ["React.js / Next.js", "TypeScript / JS (ES6+)", "Tailwind CSS", "Bootstrap 5", "HTML5 / CSS3"],
   },
   {
     label: "Backend",
-    items: ["Ruby on Rails", "REST APIs", "Authentication", "MVC"],
+    items: ["Node.js / Express", "Ruby on Rails", "RESTful APIs", "JWT / Auth", "MVC Architecture"],
   },
   {
-    label: "Data",
-    items: ["PostgreSQL", "SQLite", "Schema Design", "Migrations", "Indexing"],
+    label: "Databases & ORM",
+    items: ["MongoDB", "PostgreSQL", "Prisma ORM", "SQLite", "Schema Design"],
   },
   {
-    label: "Tooling",
-    items: ["Git / GitHub", "VS Code", "Antigravity", "Vite"],
+    label: "Tooling & Other",
+    items: ["Git / GitHub", "Socket.IO", "Vite", "Antigravity", "VS Code"],
   },
 ];
 
